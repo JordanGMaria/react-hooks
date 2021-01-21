@@ -1,0 +1,12 @@
+body {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.button {
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  font-family: "Montserrat", sans-serif;
+}
