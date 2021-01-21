@@ -10,10 +10,10 @@ const Routes = () => (
     <Route exact path="/useReducer" component={useReducer} />
     <Route exact path="/useContext" component={useContext} />
     <Route exact path="/">
-      <Redirect to="/useContext" />
+      <Redirect to="/useMemo" />
     </Route>
     <Route exact path="*">
-      <Redirect to="/useContext" />
+      <Redirect to="/useMemo" />
     </Route>
   </Switch>
 );
