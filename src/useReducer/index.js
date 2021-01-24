@@ -2,7 +2,7 @@ import React, { useReducer } from "react";
 
 export default function useReducerPage() {
   // Alternativa para uso do Redux 
-  
+
   const contadorValorInicial = { contador1: 0, contador2: 0 };
 
   const contadorReducer = (state, action) => {
@@ -25,6 +25,7 @@ export default function useReducerPage() {
 
   return (
     <div>
+      <h1>Use Reducer</h1>
       <h1>Contador 1: {contador.contador1}</h1>
       <button
         className="button"

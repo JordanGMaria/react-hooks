@@ -36,6 +36,7 @@ export default function useCallbackPage() {
 
   return (
     <div>
+      <h1>Use Callback</h1>
       Contador: {contador}
       <button className="button" onClick={incrementarCallback}>+</button>
       <button className="button" onClick={decrementarCallback}>-</button>
