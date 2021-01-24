@@ -8,6 +8,6 @@ Exemplos Práticos de uso de cada Hook
 * useEffect
 * useContext
 * useMemo
-* useReducer
-* useRef
 * useCallback
+* useRef
+* useReducer
