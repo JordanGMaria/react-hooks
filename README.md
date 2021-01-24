@@ -4,8 +4,7 @@ Exemplos Práticos de uso de cada Hook
 
 ## Hooks
 
-* useState
-* useEffect
+* useState e useEffect
 * useContext
 * useMemo
 * useCallback

@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react'
+import React, { useRef } from 'react'
 
 export default function useRefPage() {
 
@@ -7,7 +7,7 @@ export default function useRefPage() {
     function alertValue(){
         alert(input.current.value)
     }
-    
+
     return (
         <div>
             <h1>Use Ref </h1>

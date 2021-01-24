@@ -4,7 +4,8 @@ import useMemo from "./useMemo";
 import useReducer from "./useReducer";
 import useContext from "./useContext";
 import useCallback from './useCallback';
-import useRef from './UseRef';
+import useRef from './useRef';
+import useStateuseEffect from './useState-useEffect';
 
 const Routes = () => (
   <Switch>
@@ -13,6 +14,7 @@ const Routes = () => (
     <Route exact path="/useContext" component={useContext} />
     <Route exact path="/useCallback" component={useCallback} />
     <Route exact path="/useRef" component={useRef} />
+    <Route exact path="/useState-useEffect" component={useStateuseEffect} />
     <Route exact path="/">
       <Redirect to="/useReducer" />
     </Route>
